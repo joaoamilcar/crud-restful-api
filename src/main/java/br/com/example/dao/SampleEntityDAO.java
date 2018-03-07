@@ -17,7 +17,7 @@ public class SampleEntityDAO {
 	}
 	
 	public void insert(SampleEntity sampleEntity) throws SQLException {
-		String query = "insert into sampleEntity "
+		String query = "insert into SampleEntity "
 				+ "(name, creation) "
 				+ "values (?, ?)";
 		
